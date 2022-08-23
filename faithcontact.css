@@ -1,0 +1,808 @@
+body{
+
+    width: 100%;
+    height: 600px;
+    background-image: url(../faith-imgs/contactimg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    overflow-x: hidden;
+}
+
+/* styling the nav */
+
+.total-nav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    /* margin-left: 200px;*/
+    margin-top: -20px;
+    width: 100%;
+    height: 150px;
+
+}
+
+.trotal{
+
+    display: flex;
+    width: 100%;
+    margin-left: 380px;
+    
+    
+}
+
+.trotal >a{
+
+    text-decoration: none;
+    float:left;
+    text-align: center;
+    color: #020a52;
+    padding: 10px 20px;
+    font-size: 1rem;  
+
+}
+
+.total-nav button{
+
+    width: 100% ;
+}
+
+/* styling the first dropdown */
+
+.Frhome{
+
+    float: left;
+    overflow: hidden;
+
+}
+
+.Frhome .home{
+
+    font-size: 1rem;
+    outline: none;
+    border:none;
+    background: inherit; 
+    padding: 12px 20px;
+    color: #020a52;
+    
+}
+
+.campus{
+
+    display:none ;
+    position: absolute;
+    background: #ffffff;
+    min-width:60px;
+    /* box-shadow: 0px 5px 10px 0px #f10c0c; */
+    z-index: 1;
+    
+}
+
+.campus >a{
+
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 1rem;
+    /* font-weight: 100; */
+    /* font-family: ; */
+}
+
+.campus >a:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+
+}
+
+.Frhome:hover .campus{
+
+    display: block;
+}
+
+.Seabout{
+
+    float: left;
+    overflow: hidden;
+
+}
+
+.about{
+
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: #020a52;
+    /* background: #eb8006; */
+    padding: 12px 20px;
+    background: inherit;
+
+}
+
+.mission{
+
+    display: none;
+    background: #ffffff;
+    min-width: 60px;
+    /* box-shadow: 0px 5px 10px 0px #f10c0c; */
+    z-index: 1;
+    position: absolute;
+    
+    
+}
+
+.mission >a{
+
+    display: block;
+    float: none;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.mission >a:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+
+}
+
+.Seabout:hover .mission{
+
+    display: block;
+}
+
+
+.Tmission{
+
+    float: left;
+    overflow: hidden;
+}
+
+.admis{
+
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: #020a52;
+    /* background: #db6617; */
+    background: inherit;
+    padding: 12px 20px;
+    /* font-size:; */
+
+}
+
+.before{
+
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    min-width: 60px;
+    /* box-shadow: 0px 5px 10px 0px #f10c0c; */
+    z-index: 1;
+
+
+}
+
+.before >a{
+
+    float: none;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.before >a:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+}
+
+.Tmission:hover .before{
+
+    display: block;
+}
+
+.Fpro{
+
+    float: left;
+    overflow: hidden; 
+}
+ 
+.grams{
+ 
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    /* background: #adca07; */
+    /* font-family: ; */
+    color: #020a52;
+    padding: 12px 20px;
+    background: inherit;
+     
+}
+ 
+.trips{
+ 
+    position: absolute;
+    display: none;
+    background: #ffffff;
+    min-width: 60px;
+    z-index: 1;
+    /* box-shadow: 0px 5px 10px 0px #f10c0c; */
+ 
+}
+ 
+.trips >a{
+ 
+    text-decoration: none;
+    float: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: #000000;
+ 
+}
+ 
+.trips >a:hover{
+ 
+    background-color: rgba(85, 236, 236, 0.5);
+}
+ 
+.Fpro:hover .trips{
+ 
+    display: block;
+}
+
+.Finews{
+
+    float: left;
+    overflow: hidden;
+}
+
+.new{
+
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    color:#020a52;
+    padding: 12px 20px;
+    background: inherit;
+    /* background: #859916; */
+    /* font-family: ; */
+}
+
+.letters{
+
+    position: absolute;
+    display: none;
+    min-height: 60px;
+    /* box-shadow: 0px 5px 10px 0px #f10c0c ; */
+    z-index: 1;
+    background: #ffffff;
+}
+
+.letters >a{
+
+    float: none;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+
+
+}
+
+.letters >a:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+}
+
+.Finews:hover .letters{
+
+    display: block;
+}
+
+
+ 
+
+/* hover the navbar */
+
+.home:hover{
+
+    background-color: rgba(85, 236, 236, 0.5); 
+    color: #000000;
+}
+
+.about:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+}
+
+.admis:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+}
+
+.grams:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+}
+
+.new:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+}
+
+.ploy:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+}
+
+.cont:hover{
+
+    background-color: rgba(85, 236, 236, 0.5);
+}
+
+/* contact area */
+.capcon{
+
+    width: 100%;
+    height: 350px;
+    background-color: rgba(139, 131, 117, 0.274);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -40px; 
+} 
+
+
+.capcon >h2{
+
+    font-size: 3.2rem;
+    position: relative;
+    text-align: center;
+    top: 110px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+/* general bottom div */
+.term{
+
+    width: 100%;
+    height: 400px;
+    background: #e4e2dd;
+    position: relative;
+    top: -150px;
+}
+
+.interm{
+
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* styling the elementary school */
+.eleme{
+
+    width: 37%;
+    height: 450px;
+    background:#6998c5 ;
+    position: relative;
+    color: rgb(19, 16, 16);
+    text-align: center;
+    left:10px;
+}
+
+.eleme >h3{
+
+    font-size: 2rem;
+    position: relative;
+    top: -30px;
+    right: 50px;
+    letter-spacing: 5px;
+
+}
+
+.eleme .line{
+
+    width: 20%;
+    height: 5px;
+    background-color: #000;
+    position:relative;
+    top: -100px;
+    left: 120px;
+}
+
+.eleme .p1{
+
+    position: relative;
+    top: -135px;
+    right: 100px;
+    
+}
+
+.eleme .p2{
+
+    position: relative;
+    top: -145px;
+    right: 90px;
+    
+}
+
+.eleme .p3{
+
+    position: relative;
+    top: -192px;
+    right: 115px;
+}
+
+.eleme > button{
+
+    position: relative;
+    border: none;
+    outline: none;
+    background: inherit;
+    top: -200px;
+    right: 175px;
+
+}
+
+.eleme .p4{
+
+    position: relative;
+    right: 115px;
+    top: -240px;
+}
+
+/*  styling the elementary school form */
+.eleme .put{
+
+    position: relative;
+    top: -220px;
+    
+}
+
+.put .for1{
+
+    position: relative;
+    top: -40px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+
+}
+
+.put .for2{
+
+    position: relative;
+    top: -35px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+
+}
+
+.put .for3{
+
+    position: relative;
+    top: -30px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+
+}
+
+.put .for4{
+
+    position: relative;
+    top: -154px;
+    left: 85px;
+    padding: 53px 2px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+
+}
+
+
+
+/* styling the middle school */
+.mid{
+
+    width: 37%;
+    height: 450px;
+    background:#dce1e6 ;
+    position: relative;
+    color: rgb(19, 16, 16);
+    text-align: center;
+    right: 10px;
+}
+
+.mid > h3{
+
+    font-size: 2rem;
+    position: relative;
+    top: -30px;
+    right: 10px;
+    letter-spacing: 5px;
+}
+
+.mid .line{
+
+    width: 20%;
+    height: 5px;
+    background-color: #000;
+    position:relative;
+    top: -100px;
+    left: 160px;
+}
+
+.mid .ml1{
+
+    position: relative;
+    top: -135px;
+    right: 90px;
+}
+
+.mid .ml2{
+
+    position: relative;
+    top: -145px;
+    right: 80px;
+}
+
+.mid .ml3{
+
+    position: relative;
+    top: -192px;
+    right: 100px;
+}
+
+.mid > button{
+
+    position: relative;
+    border: none;
+    outline: none;
+    background: inherit;
+    top: -200px;
+    right: 160px;
+
+}
+
+.mid .ml4{
+
+    position: relative;
+    right: 100px;
+    top: -240px;
+}
+
+/* styling the middle school form */
+.mid .hail{
+
+    position: relative;
+    top: -220px;
+
+}
+
+.hail .hl1{
+
+    position: relative;
+    top: -40px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+}
+
+.hail .hl2{
+
+    position: relative;
+    top: -35px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+
+}
+
+.hail .hl3{
+
+    position: relative;
+    top: -30px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+}
+
+.hail .hl4{
+
+    position: relative;
+    top: -154px;
+    left: 85px;
+    padding: 53px 2px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none; 
+}
+
+/* styling the high school */
+.hig{
+
+    width: 37%;
+    height: 450px;
+    background:#6998c5 ;
+    position: relative;
+    color: rgb(19, 16, 16);
+    text-align: center;
+    right: 10px;
+}
+
+.hig > h3{
+
+    font-size: 2rem;
+    position: relative;
+    top: -30px;
+    letter-spacing: 5px;
+}
+
+.hig .line{
+
+    width: 20%;
+    height: 5px;
+    background-color: #000;
+    position:relative;
+    top: -70px;
+    left: 160px;
+}
+
+.hig .hig1{
+
+    position: relative;
+    top: -105px;
+    right: 70px;
+}
+
+.hig .hig2{
+
+    position: relative;
+    top: -110px;
+    right: 56px;
+
+}
+
+.hig .hig3{
+
+    position: relative;
+    top: -155px;
+    right: 83px;
+}
+
+.hig >button{
+
+    position: relative;
+    border: none;
+    outline: none;
+    background: inherit;
+    top: -160px;
+    right: 140px;
+}
+
+.hig .hig4{
+
+    position: relative;
+    right: 80px;
+    top: -200px;
+}
+
+.hig .sub{
+
+    position: relative;
+    top: -250px;
+    
+}
+
+/*  styling the high school form */
+
+.sub .sub1{
+
+    position: relative;
+    top: -20px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+}
+
+.sub .sub2{
+
+    position: relative;
+    top: -15px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+}
+
+.sub .sub3{
+
+    position: relative;
+    top: -10px;
+    right: 95px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+}
+
+.sub .sub4{
+
+    position: relative;
+    top: -135px;
+    left: 85px;
+    padding: 53px 2px;
+    border: 1px solid #000;
+    background: inherit;
+    outline: none;
+}
+
+/* styling the send button */
+.subbtn{
+
+    position: relative;
+    top: -360px;
+    left: 150px;
+    border: none;
+    padding: 8px;
+    color: #fff;
+    background: #000;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+
+.subbtn1{
+
+    position: relative;
+    top: -320px;
+    left: 150px;
+    border: none;
+    padding: 8px;
+    color: #fff;
+    background: #000;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+
+/* styling the placeholder for the forms  */
+[type="message"]::placeholder{
+
+    color: #fff;
+}
+[type="text"] ::placeholder{
+
+    color:#000;
+}
+
